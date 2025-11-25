@@ -5,10 +5,10 @@ A smart shopping assistant that helps you find the best deals from German superm
 ## What does this app do?
 
 This app helps you:
-- Find the best prices for products you want to buy
-- Compare deals between REWE and ALDI supermarkets
-- Get smart recommendations based on your location
-- Save time by not checking each store website manually
+- Find the best prices for products you want to buy.
+- Compare deals between REWE and ALDI supermarkets.
+- Get smart recommendations based on your location.
+- Save time by not checking each store website manually.
 
 ## How it works
 
