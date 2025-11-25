@@ -1,0 +1,9 @@
+google-generativeai==0.8.5
+ollama==0.6.1
+pandas==2.3.3
+python-dotenv==1.2.1
+qdrant-client==1.15.1
+selenium==4.38.0
+sentence-transformers==5.1.2
+streamlit==1.51.0
+torch==2.9.1

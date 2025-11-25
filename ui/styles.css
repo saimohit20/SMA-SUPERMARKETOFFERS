@@ -1,0 +1,72 @@
+.bottom-input {
+    position: fixed !important;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    padding: 12px 0;
+    border-top: 1px solid #ddd;
+    z-index: 99999 !important;
+}
+
+
+.bottom-input-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+
+.chat-container {
+    max-width: 800px;             
+    margin: 0 auto;                
+    padding: 0 24px 180px;         
+}
+
+.bottom-input .stTextInput > div > div {
+    background: #f5f5f7 !important;
+    border-radius: 40px !important;
+    padding-left: 20px !important;
+    border: 1px solid #d0d0d0 !important;
+    height: 48px !important;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.bottom-input .stButton > button {
+    height: 48px !important;
+    border-radius: 40px !important;
+    background: #ff6b5a !important;
+    color: white !important;
+    padding: 0 24px !important;
+    border: none !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
+.bottom-input .stButton > button:hover {
+    background: #e45a4b !important;
+}
+
+.typing {
+    display: flex;
+    gap: 6px;
+}
+
+.typing-dot {
+    width: 10px;
+    height: 10px;
+    background: #bbb;
+    border-radius: 50%;
+    animation: blink 1.4s infinite both;
+}
+
+.typing-dot:nth-child(2) { animation-delay: 0.2s; }
+.typing-dot:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes blink {
+    0% { opacity: .2; }
+    20% { opacity: 1; }
+    100% { opacity: .2; }
+}
