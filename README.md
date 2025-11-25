@@ -34,7 +34,7 @@ This app helps you:
 
 2. Start the app:
    ```
-   streamlit run code/ui/ui.py
+   streamlit run ui/ui.py
    ```
 
 3. Open your web browser and go to the link shown
