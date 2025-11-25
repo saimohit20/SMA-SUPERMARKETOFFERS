@@ -1,42 +1,29 @@
 # Supermarket Offers Assistant 🛒
 
-A smart shopping assistant that helps you find the best deals from German supermarkets REWE and ALDI using AI.
+A supermarket shopping assistant that helps you find the best deals from German supermarkets REWE and ALDI.
 
 ## What does this app do?
 
 This app helps you:
 - Find the best prices for products you want to buy.
-- Compare deals between REWE and ALDI supermarkets.
-- Get smart recommendations based on your location.
-- Save time by not checking each store website manually.
+- Compare deals from supermarkets.
+- Get recommendations based on your location.
+- The goal is to save time by not checking each store website manually.
 
 ## How it works
 
 1. **Enter your location** - Type in your German postal code (5 digits)
 2. **Ask what you want** - Type what product you're looking for (like "milk", "bread", "apples")
-3. **Get smart answers** - The AI finds the best deals and shows you prices, stores, and links
+3. **Get recommendation** - The AI finds the best deals and shows you prices, stores, and links.
 
-## What's inside
-
-The app uses three different AI models:
-- **Gemini** - Google's AI model (default choice)
-- **BERT** - Good for understanding what you really mean
-- **Qwen** - Another smart AI option
-
-## Main parts
-
-- **Web scrapers** - Automatically get latest offers from REWE and ALDI websites
-- **Smart search** - Uses AI to understand what you want and find matching products
-- **Price comparison** - Shows you the cheapest options
-- **Easy interface** - Simple chat-like experience
 
 ## Files explained
 
-- `ui/` - The main app interface you see
+- `ui/` - The main app interface
 - `supermarket_scrapers/` - Gets data from REWE and ALDI websites  
 - `rag_engine/` - The smart search that finds what you need
-- `embedders/` - Converts product info into numbers AI can understand
-- `scraping_engine/` - Processes and stores the scraped data
+- `embedders/` - Helpers functions for embedding.
+- `scraping_engine/` - data processing, embedding, data ingestion. 
 
 ## How to run
 
@@ -53,21 +40,13 @@ The app uses three different AI models:
 3. Open your web browser and go to the link shown
 
 
-
-## Important notes
-
-- First time using a new postal code takes 30-60 seconds (getting fresh data).
-- After that, searches are very fast.
-- The app remembers what it found so you don't wait again.
-- Works best with common grocery items.
-
 ## Technology used
 
-- **Streamlit** - Makes the web interface
-- **Selenium** - Gets data from store websites
-- **Qdrant** - Stores product information
-- **Google Gemini** - Main AI for understanding and recommendations
-- **BERT & Qwen** - Alternative AI models
-- **Pandas** - Handles data processing
+- **Streamlit** 
+- **Selenium** 
+- **Qdrant** 
+- **Google Gemini & Qwen** 
+- **BERT**
+- **Pandas** 
 
 ---
