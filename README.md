@@ -54,20 +54,12 @@ The app uses three different AI models:
 
 
 
-## Example questions you can ask
-
-- "Show me cheap milk"
-- "What fruits are on sale?"
-- "Find bread under 2 euros"
-- "Best pasta deals"
-- "Organic vegetables near me"
-
 ## Important notes
 
-- First time using a new postal code takes 30-60 seconds (getting fresh data)
-- After that, searches are very fast
-- The app remembers what it found so you don't wait again
-- Works best with common grocery items
+- First time using a new postal code takes 30-60 seconds (getting fresh data).
+- After that, searches are very fast.
+- The app remembers what it found so you don't wait again.
+- Works best with common grocery items.
 
 ## Technology used
 
@@ -79,5 +71,3 @@ The app uses three different AI models:
 - **Pandas** - Handles data processing
 
 ---
-
-*This project helps German shoppers save money by finding the best supermarket deals using artificial intelligence.*
