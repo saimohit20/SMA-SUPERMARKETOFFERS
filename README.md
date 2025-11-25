@@ -21,7 +21,7 @@ This app helps you:
 
 - `ui/` - The main app interface
 - `supermarket_scrapers/` - Gets data from REWE and ALDI websites  
-- `rag_engine/` - The smart search that finds what you need
+- `rag_engine/` - The simiratity search that finds sutiable products.
 - `embedders/` - Helpers functions for embedding.
 - `scraping_engine/` - data processing, embedding, data ingestion. 
 
