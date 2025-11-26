@@ -1,6 +1,7 @@
 # Supermarket Offers Assistant 🛒
 
 A supermarket shopping assistant that helps you find the best deals from German supermarkets REWE and ALDI.
+[![Watch the Demo Video](https://img.youtube.com/vi/lvYrrtJIoMk/0.jpg)](https://www.youtube.com/watch?v=lvYrrtJIoMk)
 
 ## What does this app do?
 
