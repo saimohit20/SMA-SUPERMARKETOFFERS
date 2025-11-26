@@ -27,17 +27,19 @@ This app helps you:
 
 ## How to run
 
-1. Install Python packages:
+1. Add .env file which is provided to project folder
+
+2. Install Python packages:
    ```
    pip install -r requirements.txt
    ```
 
-2. Start the app:
+3. Start the app:
    ```
    streamlit run ui/ui.py
    ```
 
-3. Open your web browser and go to the link shown
+4. Open your web browser and go to the link shown
 
 
 ## Technology used
