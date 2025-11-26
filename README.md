@@ -27,7 +27,7 @@ This app helps you:
 
 ## How to run
 
-1. Add .env file which is provided to project folder
+1. Add .env file to project folder which is provided. This file contain the API keys
 
 2. Install Python packages:
    ```
